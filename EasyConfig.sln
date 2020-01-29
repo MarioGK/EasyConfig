@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyConfig", "EasyConfig\EasyConfig.csproj", "{08EF5605-5C50-416E-A04D-85ABF48C4884}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyConfig.Tests", "EasyConfig.Tests\EasyConfig.Tests.csproj", "{2A2BDFF7-87B7-4085-964C-F69F8719C421}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08EF5605-5C50-416E-A04D-85ABF48C4884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08EF5605-5C50-416E-A04D-85ABF48C4884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08EF5605-5C50-416E-A04D-85ABF48C4884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08EF5605-5C50-416E-A04D-85ABF48C4884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A2BDFF7-87B7-4085-964C-F69F8719C421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A2BDFF7-87B7-4085-964C-F69F8719C421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A2BDFF7-87B7-4085-964C-F69F8719C421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A2BDFF7-87B7-4085-964C-F69F8719C421}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
