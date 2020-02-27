@@ -2,6 +2,16 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>EasyConfig</Title>
+        <Description>A library to make handling configuration easy and simple.</Description>
+        <PackageProjectUrl>https://github.com/MarioGK/EasyConfig</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/MarioGK/EasyConfig/blob/master/LICENSE.md</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/MarioGK/EasyConfig</RepositoryUrl>
+        <PackageTags>config</PackageTags>
+        <SignAssembly>true</SignAssembly>
+        <AssemblyOriginatorKeyFile>EasyConfigKey.snk</AssemblyOriginatorKeyFile>
+        <PublicSign>true</PublicSign>
     </PropertyGroup>
 
     <ItemGroup>
