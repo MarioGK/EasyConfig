@@ -10,3 +10,8 @@
      steps:
        - checkout
        - run: dotnet build
+       - publish:
+          name: Push to NuGet
+          command: |
+            dotnet pack --output OutputFolder/ --configuration Release
+            dotnet nuget push --api-key="${NugetKey}" OutputFolder/*.nupkg
