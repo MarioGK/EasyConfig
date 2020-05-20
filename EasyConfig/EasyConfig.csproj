@@ -8,7 +8,6 @@
         <PackageLicenseUrl>https://github.com/MarioGK/EasyConfig/blob/master/LICENSE.md</PackageLicenseUrl>
         <RepositoryUrl>https://github.com/MarioGK/EasyConfig</RepositoryUrl>
         <PackageTags>config</PackageTags>
-        <AssemblyOriginatorKeyFile>EasyConfigKey.snk</AssemblyOriginatorKeyFile>
         <PublicSign>true</PublicSign>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageId>EasyConfigStandard</PackageId>
