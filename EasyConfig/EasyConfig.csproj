@@ -11,8 +11,11 @@
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageId>EasyConfigStandard</PackageId>
         <Authors>MarioGK</Authors>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-        <FileVersion>1.0.0.0</FileVersion>
+        <Deterministic>false</Deterministic>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <AssemblyVersion>1.0.0.1</AssemblyVersion>
+        <FileVersion>1.0.0.1</FileVersion>
+        <PackageVersion>1.0.0.1</PackageVersion>
     </PropertyGroup>
 
     <ItemGroup>
