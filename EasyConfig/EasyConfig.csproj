@@ -15,7 +15,7 @@
         <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
         <AssemblyVersion>1.0.0.2</AssemblyVersion>
         <FileVersion>1.0.0.2</FileVersion>
-        <PackageVersion>1.0.0.1</PackageVersion>
+        <PackageVersion>1.0.0.2</PackageVersion>
     </PropertyGroup>
 
     <ItemGroup>
