@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
+using System.Threading.Tasks;
 
 namespace EasyConfig
 {
@@ -56,6 +57,16 @@ namespace EasyConfig
         }
 
         /// <summary>
+        /// Returns the saved configuration file.
+        /// </summary>
+        /// <typeparam name="T">Configuration class.</typeparam>
+        /// <returns></returns>
+        public static async Task<T> GetAsync<T>()
+        {
+            return await Task.Run(Get<T>);
+        }
+
+        /// <summary>
         /// Saves the configuration class into a file.
         /// </summary>
         /// <param name="config">Configuration class</param>
@@ -78,6 +89,11 @@ namespace EasyConfig
                 e.Data.Add("ConfigTestError", $"Failed to save the configuration file with the name {name}.");
                 throw;
             }
+        }
+
+        public static async Task SaveAsync(object config)
+        {
+            await Task.Run((() => Save(config)));
         }
 
         private static void MakeSureDirectoryExists()
