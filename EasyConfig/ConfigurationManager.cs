@@ -93,7 +93,7 @@ namespace EasyConfig
 
         public static async Task SaveAsync(object config)
         {
-            await Task.Run((() => Save(config)));
+            await Task.Run(() => Save(config));
         }
 
         private static void MakeSureDirectoryExists()
